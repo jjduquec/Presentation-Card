@@ -17,7 +17,9 @@ html{
 
 body{
     background-color: #28223F;
-
+    color: white;
+    font-family:'Roboto', sans-serif;
+    
 
 }
 
@@ -32,21 +34,89 @@ section{
     top:50%;
     right:50%;
     transform:translate(50%,-50%);
+    box-shadow: 1px 1px 10px  #038bfb ;
 
 }
 .personal{
     background-color: #231E39;
-
+    padding:4rem;
+    text-align: center;
 
 }
 .personal img{
     width:12rem;
+    display:block;
+    margin-left:15%;
+    transform:translate(15%,-35%);
+    border: 0.2rem solid #038bfb ;
+    border-radius:100%;
 
 }
 
+.personal h1{
+    
+    font-size:2rem;
+}
+
+.personal p{
+
+    font-size: 1.5rem;
+    
+}
+
+.personal .country{
+    margin-top:0.5rem;
+
+}
+
+.personal .rol{
+    margin-top:1rem;
+
+
+
+}
+.personal button{
+    margin-top:2rem;
+    background: #038bfb;
+    color:#231E39;
+    border:1px solid #038bfb; 
+    padding: 0.8rem 1.8rem; 
+    border-radius:0.3rem;
+    font-size: 1.3rem;
+
+
+}
+
+.personal button:hover{
+    color:#038bfb;
+    background:#231E39;
+    border: 1px solid #038bfb;  
+
+
+
+
+
+}
 .skills{
 
     background-color: #1F1A36;
-
+    padding:1.6rem;
 
 }
+
+.skils h2{  
+    text-transform:uppercase;
+    font-size:1.2rem; 
+    margin-bottom:0.5rem;  
+
+} 
+
+.skills ul li{
+    display:inline-block;  
+    font-size: 1.2rem;
+    border:0.2rem solid #231E39;
+    border-radius:0.2rem;  
+    padding:0.4rem;  
+    margin:0.2rem;
+}
+
