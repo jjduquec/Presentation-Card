@@ -38,15 +38,17 @@ section{
 
 }
 .personal{
-    background-color: #231E39;
+    background-color: #231E39; 
     padding:4rem;
     text-align: center;
 
 }
 .personal img{
-    width:12rem;
-    display:block;
-    margin-left:15%;
+    
+    width:120px; 
+    height:120px;
+    margin-top:8%;
+    margin-right:20%;
     transform:translate(15%,-35%);
     border: 0.2rem solid #038bfb ;
     border-radius:100%;
@@ -97,6 +99,39 @@ section{
 
 
 }
+
+.social{
+    position:absolute;
+    border:1px solid red;
+    width: 15rem;
+    height:2rem;
+    margin-top:1.1rem;
+    margin-left:3.5rem;
+    padding-top:0.2rem;
+    
+
+
+} 
+
+.social a{
+    text-decoration: none; 
+    color:inherit;
+
+
+}
+
+.social i{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left:0.7rem;
+
+
+}
+
+
+
+
+
 .skills{
 
     background-color: #1F1A36;
